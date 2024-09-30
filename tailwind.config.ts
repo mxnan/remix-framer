@@ -24,7 +24,7 @@ export default {
           "Noto Color Emoji",
         ],
         mono: [
-          "Kode Mono",
+          "Sometype Mono",
           "ui-monospace",
           "SFMono-Regular",
           "Menlo",
@@ -35,6 +35,7 @@ export default {
           "monospace",
         ],
       },
+     
     },
   },
   plugins: [require("tailwindcss-animate")],

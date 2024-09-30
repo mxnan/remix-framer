@@ -20,7 +20,7 @@ export const links: LinksFunction = () => [
   },
   {
     rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Kode+Mono:wght@400..700&display=swap",
+    href: "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap",
   },
 ];
 
@@ -33,9 +33,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body className="relative flex flex-col font-sans">
+      <body className=" relative flex flex-col font-sans">
         <Header />
-        {children}
+        <main className="">{children}</main>
+
         <ScrollRestoration />
         <Scripts />
       </body>
